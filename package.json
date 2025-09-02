@@ -14,7 +14,6 @@
     "axios": "^1.11.0",
     "bcrypt": "^6.0.0",
     "hono": "^4.9.5",
-    "hono/cors": "^4.9.5",
     "jose": "^6.1.0",
     "jsonwebtoken": "^9.0.2",
     "rin-backend": ".",
