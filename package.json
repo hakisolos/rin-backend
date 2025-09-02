@@ -16,6 +16,10 @@
     "hono": "^4.9.5",
     "jose": "^6.1.0",
     "jsonwebtoken": "^9.0.2",
-    "rin-backend": "."
+    "rin-backend": ".",
+    "pm2": "^5.4.2"
+  },
+  "scripts": {
+    "start": "pm2 start index.ts --name rin --attach"
   }
 }
