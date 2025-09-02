@@ -1,0 +1,21 @@
+{
+  "name": "rin-backend",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.56.1",
+    "axios": "^1.11.0",
+    "bcrypt": "^6.0.0",
+    "hono": "^4.9.5",
+    "jose": "^6.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "rin-backend": "."
+  }
+}
